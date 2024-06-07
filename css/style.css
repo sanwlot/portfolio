@@ -391,16 +391,25 @@ header {
 
 .portfolio {
   display: grid;
+  gap: 0.7em;
+  margin-top: 2em;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
 .portfolio__item {
   background: var(--clr-accent);
   overflow: hidden;
+  text-decoration: none;
+}
+
+.portfolio__item h3 {
+  color: #333;
+  padding: 0.5em;
 }
 
 .portfolio__img {
   transition: transform 750ms cubic-bezier(0.5, 0, 0.5, 1), opacity 250ms linear;
+  height: 100%;
 }
 
 .portfolio__item:focus {
