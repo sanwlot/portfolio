@@ -391,7 +391,7 @@ header {
 
 .portfolio {
   display: grid;
-  gap: 0.7em;
+  gap: 10px;
   margin-top: 2em;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
